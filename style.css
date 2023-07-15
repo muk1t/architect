@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{  
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* navbar-section */
+.nav-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 100px;
+   gap: 190px;
+   background-color: rgba(255, 144, 14, 0.10);
+}
+.nav-title{
+   font-size: 2.8rem;
+   font-weight: 700;
+
+}
+.nav-icon{
+   display: flex;
+   gap: 30px;
+}
+a{  
+    color: #131313;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* heading section */
+
+.header-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 18px;
+    background-color: rgba(255, 144, 14, 0.10);
+}
+.header-text-heading{
+    padding-top: 85px;
+    padding-bottom: 20px;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.header-text-paragraph{
+    color: #727272;
+}
+.header-text-btn{
+    height: 60px;
+    width: 170px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+.header-text-banar-img{
+    width: 770px;
+    padding-bottom: 50px;
+}
+
+/* feature section */
+
+
+.feature-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 120px;
+} 
+.feature-container-imgs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    padding-right: 50px;
+}
+.feature-container-text{
+    padding-right: 120px;
+}
+.feature-container-text-heading{
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-bottom: 2.9rem;
+}
+.feature-orreng-color{
+    color: #FF900E;
+}
+.feature-container-text-paragraph{
+    color: #727272;
+    padding-bottom: 20px;
+}
