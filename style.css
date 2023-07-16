@@ -97,3 +97,40 @@ a{
     color: #727272;
     padding-bottom: 20px;
 }
+
+
+
+/* responsive */
+
+@media screen and (max-width: 576px) {
+    .nav-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 390px;
+        gap: 70px;
+    }
+    .header-text-container{
+        width: 390px;
+    }
+    .header-text-banar-img{
+        width: 340px;
+    }
+    .feature-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 390px;
+    }
+    .feature-container-imgs{
+        padding: 16px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-container-text{
+        padding: 16px;
+    }
+    
+}
