@@ -74,7 +74,7 @@ a{
     justify-content: space-around;
     align-items: center;
     padding-top: 70px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 } 
 .feature-container-imgs{
     display: grid;
@@ -88,7 +88,7 @@ a{
 .feature-container-text-heading{
     font-size: 2.8rem;
     font-weight: 700;
-    padding-bottom: 2.9rem;
+    padding-bottom: 2.8rem;
 }
 .feature-orreng-color{
     color: #FF900E;
@@ -96,6 +96,30 @@ a{
 .feature-container-text-paragraph{
     color: #727272;
     padding-bottom: 20px;
+}
+
+.version-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+    margin: 40px;
+}
+.version-container-text{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+.version-container-text-version{
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 8px 8px 4px gray;
+}
+.Desktop-Mobile-Version{
+    padding-bottom: 15px;
 }
 
 
